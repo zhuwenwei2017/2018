@@ -3,4 +3,5 @@ mypet/.DS_Store
 .DS_Store
 mypet/.classpath
 mypet/.project
+mypet/bin/
 mypet/gen/com/zhuww/mypet/R.java
