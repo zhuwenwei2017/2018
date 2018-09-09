@@ -75,7 +75,12 @@ public class PersonSettingDialog extends AlertDialog{
 			,{"chopper_action_shock",  	R.drawable.chopper_shock_2_1,    R.string.str_shock}
 			,{"chopper_action_star",  	R.drawable.chopper_star_1_1,    R.string.str_star}
 	};
-	
+	private final Object pandaData[][] = {
+			//perference_key        //icon                    //name
+			{"panda_action_sit",	R.drawable.panda_sit,	  R.string.str_sit}
+			,{"panda_action_walk",	R.drawable.panda_walk_3,  R.string.str_walk}
+			,{"panda_action_stand",	R.drawable.panda_walk_2,	  R.string.str_stand}
+	};
 	public PersonSettingDialog(Context context, String name) {
 		super(context);
 		mContext = context;
@@ -97,6 +102,10 @@ public class PersonSettingDialog extends AlertDialog{
 		else if("chopper".equals(mPersonName)){
 			mIconId = R.drawable.chopper_eat_1_1;
 			mTitleName = mContext.getResources().getText(R.string.chopper_full_name);
+		}
+		else if("panda".equals(mPersonName)){
+			mIconId = R.drawable.panda_sit;
+			mTitleName = mContext.getResources().getText(R.string.panda_full_name);
 		}
 		else{
 			
@@ -154,6 +163,8 @@ public class PersonSettingDialog extends AlertDialog{
 				dataArray = lawData;
 			}else if("chopper".equals(name)){
 				dataArray = chopperData;
+			}else if("panda".equals(name)){
+				dataArray = pandaData;
 			}else{
 				break;
 			}

@@ -53,9 +53,12 @@ public class StorePersonAdapter extends SimpleAdapter{
 //		System.out.println("init local");
 		List<PersonInfo> data = new ArrayList<PersonInfo>();
 		
-		String name[] = {"luffy", "chopper", "zoro", "law"};
-		int iconId[] = {R.drawable.luffy_eat_2, R.drawable.chopper_eat_1_1, R.drawable.zoro_down_2, R.drawable.law_stand};
-		int nameId[] = {R.string.luffy, R.string.chopper, R.string.zoro, R.string.law};
+//		String name[] = {"luffy", "chopper", "zoro", "law"};
+//		int iconId[] = {R.drawable.luffy_eat_2, R.drawable.chopper_eat_1_1, R.drawable.zoro_down_2, R.drawable.law_stand};
+//		int nameId[] = {R.string.luffy, R.string.chopper, R.string.zoro, R.string.law};
+		String name[] = {"panda", "luffy"};
+		int iconId[] = {R.drawable.panda_sit, R.drawable.luffy_eat_2};
+		int nameId[] = {R.string.panda, R.string.luffy};
 		
 		for(int i = 0; i < name.length; i++){
 			try{
