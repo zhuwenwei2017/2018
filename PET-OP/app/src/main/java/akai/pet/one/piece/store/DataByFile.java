@@ -34,7 +34,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 
-import akai.floatView.op.luffy.R;
+import akai.floatView.op.zoro.R;
 import akai.pet.one.piece.person.DownloadPerson;
 import akai.pet.one.piece.settings.PersonSettingDialog;
 

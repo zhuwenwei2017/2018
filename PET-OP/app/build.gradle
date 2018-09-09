@@ -5,7 +5,7 @@ android {
     buildToolsVersion '27.0.3'
 
     defaultConfig {
-        applicationId "akai.floatView.op.luffy"
+        applicationId "akai.floatView.op.zoro"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 14

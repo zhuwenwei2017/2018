@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
-import akai.floatView.op.luffy.R;
+import akai.floatView.op.zoro.R;
 import akai.pet.one.piece.store.DataByFile;
 import akai.pet.one.piece.store.KLog2File;
 import android.app.Activity;

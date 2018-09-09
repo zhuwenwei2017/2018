@@ -11,7 +11,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
-import akai.floatView.op.luffy.R;
+import akai.floatView.op.zoro.R;
 
 public class AppWebView extends Activity {
 	

@@ -24,7 +24,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-import akai.floatView.op.luffy.R;
+import akai.floatView.op.zoro.R;
 import akai.pet.one.piece.person.Chopper;
 import akai.pet.one.piece.person.DownloadPerson;
 import akai.pet.one.piece.person.Law;
@@ -164,7 +164,7 @@ public class AppService extends Service implements OnSharedPreferenceChangeListe
                 if(person.getOnPerson() == 1 && System.currentTimeMillis()-person.getTouchDownTime() > 1000){
                     ActivityManager mActivityManager = (ActivityManager)getSystemService(Context.ACTIVITY_SERVICE);
                     List<RunningTaskInfo> rti = mActivityManager.getRunningTasks(1);
-                    if(!rti.get(0).topActivity.getPackageName().equals("akai.floatView.op.luffy")){
+                    if(!rti.get(0).topActivity.getPackageName().equals("akai.floatView.op.zoro")){
                         Intent intent = new Intent(AppService.this, MainSettings.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(intent);

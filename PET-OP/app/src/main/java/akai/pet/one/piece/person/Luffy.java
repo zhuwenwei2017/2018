@@ -14,7 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import akai.floatView.op.luffy.R;
+import akai.floatView.op.zoro.R;
 
 public class Luffy extends Person{
     /**图片,动作未超过3个（不知此方法是否有问题？）*/

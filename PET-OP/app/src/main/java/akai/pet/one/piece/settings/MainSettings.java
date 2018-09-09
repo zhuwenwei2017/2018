@@ -12,7 +12,7 @@ import android.preference.PreferenceScreen;
 
 import com.umeng.analytics.MobclickAgent;
 
-import akai.floatView.op.luffy.R;
+import akai.floatView.op.zoro.R;
 import akai.pet.one.piece.AppService;
 import akai.pet.one.piece.AppWebView;
 import akai.pet.one.piece.store.StoreActivity;

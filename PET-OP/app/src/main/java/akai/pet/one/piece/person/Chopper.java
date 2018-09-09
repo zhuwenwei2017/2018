@@ -14,7 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import akai.floatView.op.luffy.R;
+import akai.floatView.op.zoro.R;
 
 public class Chopper extends Person{
     private Bitmap[] bmpImage = new Bitmap[3];

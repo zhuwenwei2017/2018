@@ -14,7 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import akai.floatView.op.luffy.R;
+import akai.floatView.op.zoro.R;
 
 public class Zoro extends Person{
     /**图片,动作未超过3个*/

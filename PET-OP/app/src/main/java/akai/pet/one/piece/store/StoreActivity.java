@@ -26,7 +26,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import akai.floatView.op.luffy.R;
+import akai.floatView.op.zoro.R;
 import akai.pet.one.piece.settings.PersonSettingDialog;
 
 public class StoreActivity extends Activity {

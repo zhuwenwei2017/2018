@@ -3,7 +3,7 @@ package akai.pet.one.piece.store;
 import java.util.ArrayList;
 import java.util.List;
 
-import akai.floatView.op.luffy.R;
+import akai.floatView.op.zoro.R;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
