@@ -78,8 +78,8 @@ public class PersonSettingDialog extends AlertDialog{
 	private final Object pandaData[][] = {
 			//perference_key        //icon                    //name
 			{"panda_action_sit",	R.drawable.panda_sit,	  R.string.str_sit}
-			,{"panda_action_walk",	R.drawable.panda_walk_3,  R.string.str_walk}
-			,{"panda_action_stand",	R.drawable.panda_walk_2,	  R.string.str_stand}
+			,{"panda_action_walk",	R.drawable.panda_walk_1,  R.string.str_walk}
+			,{"panda_action_stand",	R.drawable.panda_stand,	  R.string.str_stand}
 	};
 	public PersonSettingDialog(Context context, String name) {
 		super(context);

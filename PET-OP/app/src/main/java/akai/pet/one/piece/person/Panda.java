@@ -347,10 +347,10 @@ public class Panda extends Person{
                 bmpPanda[0] = decodeResource(res, R.drawable.panda_sit);
                 break;
             case FLAG_STAND:
-                bmpPanda[0] = decodeResource(res, R.drawable.panda_walk_2);
+                bmpPanda[0] = decodeResource(res, R.drawable.panda_stand);
                 break;
             case FLAG_UP:
-                bmpPanda[0] = decodeResource(res, R.drawable.panda_walk_2);
+                bmpPanda[0] = decodeResource(res, R.drawable.panda_stand);
                 bmpPanda[1] = decodeResource(res, R.drawable.panda_up_1);
                 bmpPanda[2] = decodeResource(res, R.drawable.panda_up_1);
                 break;
@@ -358,9 +358,9 @@ public class Panda extends Person{
                 upOrDown = Math.random()< 0.5 ? 1:-1;
             case FLAG_WALK:
                 bmpPanda[0] = decodeResource(res, R.drawable.panda_walk_1);
-                bmpPanda[1] = decodeResource(res, R.drawable.panda_walk_2);
-                bmpPanda[2] = decodeResource(res, R.drawable.panda_walk_3);
-                bmpPanda[3] = decodeResource(res, R.drawable.panda_walk_2);
+                bmpPanda[1] = decodeResource(res, R.drawable.panda_stand);
+                bmpPanda[2] = decodeResource(res, R.drawable.panda_walk_2);
+                bmpPanda[3] = decodeResource(res, R.drawable.panda_stand);
                 break;
         }
     }

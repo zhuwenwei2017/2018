@@ -20,3 +20,10 @@ PET-OP/app/release/app-release.apk
 PET-OP/app/release/output.json
 PET-OP/app/app-release.apk
 PET-OP/app/src/main/res/drawable/ic_launcher.png
+PET-OP/app/src/main/res/drawable-mdpi/nanjing_down_1.png
+PET-OP/app/src/main/res/drawable-mdpi/nanjing_down_2.png
+PET-OP/app/src/main/res/drawable-mdpi/nanjing_stand.png
+PET-OP/app/src/main/res/drawable-mdpi/nanjing_up_1.png
+PET-OP/app/src/main/res/drawable-mdpi/nanjing_walk_1.png
+PET-OP/app/src/main/res/drawable-mdpi/nanjing_walk_2.png
+PET-OP/app/src/main/res/drawable-mdpi/panda_stand.png
