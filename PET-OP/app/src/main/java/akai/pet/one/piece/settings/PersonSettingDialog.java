@@ -39,47 +39,53 @@ public class PersonSettingDialog extends AlertDialog{
 	private String mPersonName;
 	private final Object luffyData[][] = {
 			//perference_key        //icon                    //name
-			 {"luffy_action_crawl", R.drawable.luffy_crawl_1, R.string.str_crawl}
-			,{"luffy_action_eat",	R.drawable.luffy_eat_1,	  R.string.str_eat_meat}
-			,{"luffy_action_sit",	R.drawable.luffy_sit_1,	  R.string.str_sit}
-			,{"luffy_action_walk",	R.drawable.luffy_walk_1,  R.string.str_walk}
-			,{"luffy_action_stand",	R.drawable.luffy_stand,	  R.string.str_stand}
+			{"luffy_action_crawl", R.drawable.luffy_crawl_1, R.string.str_crawl},
+			{"luffy_action_eat",	R.drawable.luffy_eat_1,	  R.string.str_eat_meat},
+			{"luffy_action_sit",	R.drawable.luffy_sit_1,	  R.string.str_sit},
+			{"luffy_action_walk",	R.drawable.luffy_walk_1,  R.string.str_walk},
+			{"luffy_action_stand",	R.drawable.luffy_stand,	  R.string.str_stand},
 	};
 	private final Object zoroData[][] = {
 			//perference_key        //icon                    //name
-			 {"zoro_action_sleep",  R.drawable.zoro_sleep_1,  R.string.str_sleep}
-			,{"zoro_action_eat",	R.drawable.zoro_eat_1,	  R.string.str_eat}
-			,{"zoro_action_sit",	R.drawable.zoro_sit,	  R.string.str_sit}
-			,{"zoro_action_walk",	R.drawable.zoro_walk_1,   R.string.str_walk}
-			,{"zoro_action_stand",	R.drawable.zoro_stand,	  R.string.str_stand}
+			{"zoro_action_sleep",  R.drawable.zoro_sleep_1,  R.string.str_sleep},
+			{"zoro_action_eat",	R.drawable.zoro_eat_1,	  R.string.str_eat},
+			{"zoro_action_sit",	R.drawable.zoro_sit,	  R.string.str_sit},
+			{"zoro_action_walk",	R.drawable.zoro_walk_1,   R.string.str_walk},
+			{"zoro_action_stand",	R.drawable.zoro_stand,	  R.string.str_stand},
 	};
 	private final Object lawData[][] = {
 			//perference_key        //icon                    //name
-			 {"law_action_walk",  	R.drawable.law_walk_1,    R.string.str_walk}
-			,{"law_action_crawl",  	R.drawable.law_crawl_1,   R.string.str_crawl}
-			,{"law_action_sit",  	R.drawable.law_sit_1,     R.string.str_sit}
-			,{"law_action_sleepy",  R.drawable.law_sleepy_2,  R.string.str_sleepy}
-			,{"law_action_stand",  	R.drawable.law_stand,     R.string.str_stand}
-			,{"law_action_dance",  	R.drawable.law_dance_1,   R.string.str_dance}
+			{"law_action_walk",  	R.drawable.law_walk_1,    R.string.str_walk},
+			{"law_action_crawl",  	R.drawable.law_crawl_1,   R.string.str_crawl},
+			{"law_action_sit",  	R.drawable.law_sit_1,     R.string.str_sit},
+			{"law_action_sleepy",  R.drawable.law_sleepy_2,  R.string.str_sleepy},
+			{"law_action_stand",  	R.drawable.law_stand,     R.string.str_stand},
+			{"law_action_dance",  	R.drawable.law_dance_1,   R.string.str_dance},
 	};
 	private final Object chopperData[][] = {
 			//perference_key        //icon                    //name
-			 {"chopper_action_bar",  	R.drawable.chopper_walk_0_2,     R.string.str_bar}
-			,{"chopper_action_walk",  	R.drawable.chopper_walk_0_1,     R.string.str_walk}
-			,{"chopper_action_stand",  	R.drawable.chopper_stand_0_1,    R.string.str_stand}
-			,{"chopper_action_sit",  	R.drawable.chopper_sit,    		 R.string.str_sit}
-			,{"chopper_action_eat",  	R.drawable.chopper_eat_1_1,    	 R.string.str_eat}
-			,{"chopper_action_ball",  	R.drawable.chopper_ball,    	 R.string.str_ball}
-			,{"chopper_action_sleep",  	R.drawable.chopper_sleep_1_1,    R.string.str_sleep}
-			,{"chopper_action_happy",  	R.drawable.chopper_happy_0_1,    R.string.str_happy}
-			,{"chopper_action_shock",  	R.drawable.chopper_shock_2_1,    R.string.str_shock}
-			,{"chopper_action_star",  	R.drawable.chopper_star_1_1,    R.string.str_star}
+			{"chopper_action_bar",  	R.drawable.chopper_walk_0_2,     R.string.str_bar},
+			{"chopper_action_walk",  	R.drawable.chopper_walk_0_1,     R.string.str_walk},
+			{"chopper_action_stand",  	R.drawable.chopper_stand_0_1,    R.string.str_stand},
+			{"chopper_action_sit",  	R.drawable.chopper_sit,    		 R.string.str_sit},
+			{"chopper_action_eat",  	R.drawable.chopper_eat_1_1,    	 R.string.str_eat},
+			{"chopper_action_ball",  	R.drawable.chopper_ball,    	 R.string.str_ball},
+			{"chopper_action_sleep",  	R.drawable.chopper_sleep_1_1,    R.string.str_sleep},
+			{"chopper_action_happy",  	R.drawable.chopper_happy_0_1,    R.string.str_happy},
+			{"chopper_action_shock",  	R.drawable.chopper_shock_2_1,    R.string.str_shock},
+			{"chopper_action_star",  	R.drawable.chopper_star_1_1,    R.string.str_star},
 	};
 	private final Object pandaData[][] = {
 			//perference_key        //icon                    //name
-			{"panda_action_sit",	R.drawable.panda_sit,	  R.string.str_sit}
-			,{"panda_action_walk",	R.drawable.panda_walk_1,  R.string.str_walk}
-			,{"panda_action_stand",	R.drawable.panda_stand,	  R.string.str_stand}
+			{"panda_action_sit",	R.drawable.panda_sit,	  R.string.str_sit},
+			{"panda_action_walk",	R.drawable.panda_walk_1,  R.string.str_walk},
+			{"panda_action_stand",	R.drawable.panda_stand,	  R.string.str_stand},
+	};
+	private final Object nanjingData[][] = {
+			//perference_key        //icon                    //name
+			//{"panda_action_sit",	R.drawable.panda_sit,	  R.string.str_sit},
+			{"nanjing_action_walk",	R.drawable.nanjing_stand,  R.string.str_walk},
+			{"nanjing_action_stand",	R.drawable.nanjing_stand,	  R.string.str_stand},
 	};
 	public PersonSettingDialog(Context context, String name) {
 		super(context);
@@ -106,6 +112,10 @@ public class PersonSettingDialog extends AlertDialog{
 		else if("panda".equals(mPersonName)){
 			mIconId = R.drawable.panda_sit;
 			mTitleName = mContext.getResources().getText(R.string.panda_full_name);
+		}
+		else if("nanjing".equals(mPersonName)){
+			mIconId = R.drawable.nanjing_stand;
+			mTitleName = mContext.getResources().getText(R.string.nanjing_full_name);
 		}
 		else{
 			
@@ -165,6 +175,8 @@ public class PersonSettingDialog extends AlertDialog{
 				dataArray = chopperData;
 			}else if("panda".equals(name)){
 				dataArray = pandaData;
+			}else if("nanjing".equals(name)){
+				dataArray = nanjingData;
 			}else{
 				break;
 			}

@@ -29,6 +29,7 @@ import akai.pet.one.piece.person.Chopper;
 import akai.pet.one.piece.person.DownloadPerson;
 import akai.pet.one.piece.person.Law;
 import akai.pet.one.piece.person.Luffy;
+import akai.pet.one.piece.person.Nanjing;
 import akai.pet.one.piece.person.Panda;
 import akai.pet.one.piece.person.Person;
 import akai.pet.one.piece.person.Zoro;
@@ -128,6 +129,9 @@ public class AppService extends Service implements OnSharedPreferenceChangeListe
             }
             else if("panda".equals(personName)){
                 person = new Panda(this);
+            }
+            else if("nanjing".equals(personName)){
+                person = new Nanjing(this);
             }
             else{
                 person = new DownloadPerson(this, personName);
