@@ -315,11 +315,11 @@ public class Panda extends Person{
      */
     private void setActionGroup(SharedPreferences sp){
         actionGroup = new ArrayList<Integer>();
-        if(sp.getBoolean("panda_action_sit", false))
+        if(sp.getBoolean("panda_action_sit", true))
             actionGroup.add(FLAG_SIT);
-        if(sp.getBoolean("panda_action_stand", false))
+        if(sp.getBoolean("panda_action_stand", true))
             actionGroup.add(FLAG_STAND);
-        if(sp.getBoolean("panda_action_walk", false)){
+        if(sp.getBoolean("panda_action_walk", true)){
             actionGroup.add(FLAG_WALK);
             actionGroup.add(FLAG_WALK2);
         }

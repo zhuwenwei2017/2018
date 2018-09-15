@@ -32,10 +32,14 @@
 	</PreferenceCategory>
 	<PreferenceCategory android:title="@string/str_anim_setting">
         <!-- 人物选择 -->
-        <Preference
+        <ListPreference
             android:key="person_select"
 	        android:title="@string/str_chose_person"
 	        android:summary="@string/str_person_setting"
+			android:entries="@array/person_select"
+			android:entryValues="@array/person_select_value"
+			android:defaultValue="panda"
+			android:negativeButtonText="@string/str_cancel"
 	        />
         <!-- 动画报时 -->
         <CheckBoxPreference

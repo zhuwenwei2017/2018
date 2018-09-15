@@ -27,3 +27,8 @@ PET-OP/app/src/main/res/drawable-mdpi/nanjing_up_1.png
 PET-OP/app/src/main/res/drawable-mdpi/nanjing_walk_1.png
 PET-OP/app/src/main/res/drawable-mdpi/nanjing_walk_2.png
 PET-OP/app/src/main/res/drawable-mdpi/panda_stand.png
+PET-OP/app/src/main/res/drawable/check/off.png
+PET-OP/app/src/main/res/drawable/check/on.png
+PET-OP/app/src/main/res/drawable/check_box/check_box_active.png
+PET-OP/app/src/main/res/drawable/check_box/check_box_active_press.png
+PET-OP/app/src/main/res/drawable/check_box/check_box_normal.png

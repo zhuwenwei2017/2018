@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- 人物选择 -->
+    <string-array name="person_select">
+        <item>熊猫(默认)</item>
+        <item>南京</item>
+    </string-array>
+    <string-array name="person_select_value">
+        <item>panda</item>
+        <item>nanjing</item>
+    </string-array>
+
     <!-- 人物大小选择 -->
     <string-array name="person_size">
         <item>特小(默认)</item>

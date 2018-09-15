@@ -73,7 +73,7 @@ public class MainSettings extends PreferenceActivity implements SharedPreference
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen,
                                          final Preference preference) {
         if ("person_select".equals(preference.getKey())) {
-            dialog_select_person();
+            //dialog_select_person();
         } else if ("app_help".equals(preference.getKey())) {
             welcomeAndHelp();
         } else if ("app_share".equals(preference.getKey())) {
