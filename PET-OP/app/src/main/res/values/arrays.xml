@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- 人物选择 -->
-    <string-array name="person_select">
-        <item>Panda(default)</item>
-        <item>Nanjing</item>
-    </string-array>
-    <string-array name="person_select_value">
-        <item>panda</item>
-        <item>nanjing</item>
-    </string-array>
-
     <!-- 人物大小选择 -->
     <string-array name="person_size">
-        <item>Tiny(default)</item>
-        <item>Small</item>
-        <item>Middle</item>
-        <item>Large</item>
+        <item>特小(默认)</item>
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
     </string-array>
     <string-array name="person_size_value">
         <item>0.4</item>
@@ -26,9 +16,9 @@
     
     <!-- 动画行走速度 -->
     <string-array name="frame_time">
-        <item>Fast</item>
-        <item>Medium(default)</item>
-        <item>Slow</item>
+        <item>快</item>
+        <item>中（默认）</item>
+        <item>慢</item>
     </string-array>
     <string-array name="frame_time_value">
         <item>50</item>
@@ -38,9 +28,9 @@
     
     <!-- 动画变换频率 -->
     <string-array name="random_time">
-        <item>Fast(5s,default)</item>
-        <item>Medium(10s)</item>
-        <item>Slow(15s)</item>
+        <item>快（5秒,默认）</item>
+        <item>中（10秒）</item>
+        <item>慢（15秒）</item>
     </string-array>
     <string-array name="random_time_value">
         <item>5000</item>

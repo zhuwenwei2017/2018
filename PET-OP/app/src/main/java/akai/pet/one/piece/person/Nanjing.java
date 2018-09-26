@@ -317,9 +317,9 @@ public class Nanjing extends Person{
         actionGroup = new ArrayList<Integer>();
         //if(sp.getBoolean("nanjing_action_sit", false))
         //    actionGroup.add(FLAG_SIT);
-        if(sp.getBoolean("nanjing_action_stand", true))
+        if(sp.getBoolean("nanjing_action_stand", false))
             actionGroup.add(FLAG_STAND);
-        if(sp.getBoolean("nanjing_action_walk", true)){
+        if(sp.getBoolean("nanjing_action_walk", false)){
             actionGroup.add(FLAG_WALK);
             actionGroup.add(FLAG_WALK2);
         }

@@ -241,9 +241,6 @@ public class AppService extends Service implements OnSharedPreferenceChangeListe
             else
                 handler.removeCallbacks(homeRunnable);
         }
-        else if("person_select".equals(key)) {
-            sp.edit().putString("person_show_name", sp.getString("person_select", "panda")).commit();
-        }
         else if("person_show_name".equals(key)){
             removePerson();
             createPerson();
