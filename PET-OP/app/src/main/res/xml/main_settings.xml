@@ -54,26 +54,26 @@
             android:negativeButtonText="@string/str_cancel"
             />
         <!--行走速度-->
-        <ListPreference 
-            android:key="frame_time"
-            android:title="@string/str_walk_speed"
-            android:summary="@string/str_click_to_chose_walk_speed"
-            android:dialogTitle="@string/str_chose_walk_speed"
-            android:entries="@array/frame_time"
-            android:entryValues="@array/frame_time_value"
-            android:defaultValue="150"
-            android:negativeButtonText="@string/str_cancel"
-            />
+        <!--<ListPreference-->
+            <!--android:key="frame_time"-->
+            <!--android:title="@string/str_walk_speed"-->
+            <!--android:summary="@string/str_click_to_chose_walk_speed"-->
+            <!--android:dialogTitle="@string/str_chose_walk_speed"-->
+            <!--android:entries="@array/frame_time"-->
+            <!--android:entryValues="@array/frame_time_value"-->
+            <!--android:defaultValue="150"-->
+            <!--android:negativeButtonText="@string/str_cancel"-->
+            <!--/>-->
         <!--变换频率-->
-        <ListPreference 
-            android:key="random_time"
-            android:title="@string/str_change_frequency"
-            android:summary="@string/str_click_to_chose_frequency"
-            android:entries="@array/random_time"
-            android:entryValues="@array/random_time_value"
-            android:defaultValue="5000"
-            android:negativeButtonText="@string/str_cancel"
-            />
+        <!--<ListPreference -->
+            <!--android:key="random_time"-->
+            <!--android:title="@string/str_change_frequency"-->
+            <!--android:summary="@string/str_click_to_chose_frequency"-->
+            <!--android:entries="@array/random_time"-->
+            <!--android:entryValues="@array/random_time_value"-->
+            <!--android:defaultValue="5000"-->
+            <!--android:negativeButtonText="@string/str_cancel"-->
+            <!--/>-->
     </PreferenceCategory>
 <!-- 更多 -->
 	<PreferenceCategory android:title="@string/str_more" android:key="more_settings">
@@ -105,15 +105,15 @@
 			android:key="app_help"
 			android:title="@string/str_help_and_version"
 			/>
-		<Preference
-			android:key="app_update"
-			android:title="@string/str_update"
-			/>
-		<Preference
-			android:key="my_apps"
-			android:title="@string/str_my_apps"
-			android:summary="@string/str_my_apps_info"
-			/>
+		<!--<Preference-->
+			<!--android:key="app_update"-->
+			<!--android:title="@string/str_update"-->
+			<!--/>-->
+		<!--<Preference-->
+			<!--android:key="my_apps"-->
+			<!--android:title="@string/str_my_apps"-->
+			<!--android:summary="@string/str_my_apps_info"-->
+			<!--/>-->
 	    <Preference 
 	        android:title="@string/about1"
 	        android:summary="@string/about2"

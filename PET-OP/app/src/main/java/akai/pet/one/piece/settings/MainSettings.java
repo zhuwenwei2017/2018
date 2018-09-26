@@ -44,7 +44,7 @@ public class MainSettings extends PreferenceActivity implements SharedPreference
         } catch (NameNotFoundException e) {
         }
         if (sp.getInt("verson_code", 0) < versonCode) {
-            welcomeAndHelp();
+            //welcomeAndHelp();
             sp.edit().putInt("verson_code", versonCode).commit();
         }
         if (sp.getBoolean("person_visible", false))

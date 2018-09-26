@@ -130,6 +130,9 @@ public class StoreActivity extends Activity {
         findViewById(R.id.store_online_btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (true){
+                    return;
+                }
                 findViewById(R.id.store_local_btn).setSelected(false);
                 findViewById(R.id.store_online_btn).setSelected(true);
                 if (mType != StorePersonAdapter.TYPE_ONLINE) {

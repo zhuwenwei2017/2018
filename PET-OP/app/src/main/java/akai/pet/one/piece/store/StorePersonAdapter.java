@@ -56,9 +56,9 @@ public class StorePersonAdapter extends SimpleAdapter{
 //		String name[] = {"luffy", "chopper", "zoro", "law"};
 //		int iconId[] = {R.drawable.luffy_eat_2, R.drawable.chopper_eat_1_1, R.drawable.zoro_down_2, R.drawable.law_stand};
 //		int nameId[] = {R.string.luffy, R.string.chopper, R.string.zoro, R.string.law};
-		String name[] = {"panda", "nanjing", "luffy"};
-		int iconId[] = {R.drawable.panda_sit, R.drawable.nanjing_stand, R.drawable.luffy_eat_2};
-		int nameId[] = {R.string.panda, R.string.nanjing, R.string.luffy};
+		String name[] = {"panda", "nanjing"};
+		int iconId[] = {R.drawable.panda_sit, R.drawable.nanjing_stand};
+		int nameId[] = {R.string.panda, R.string.nanjing};
 		
 		for(int i = 0; i < name.length; i++){
 			try{
