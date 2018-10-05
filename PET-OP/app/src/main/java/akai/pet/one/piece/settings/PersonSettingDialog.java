@@ -79,7 +79,7 @@ public class PersonSettingDialog extends AlertDialog{
 			//perference_key        //icon                    //name
 			{"panda_action_sit",	R.drawable.panda_sit,	  R.string.str_sit},
 			{"panda_action_walk",	R.drawable.panda_walk_1,  R.string.str_walk},
-			{"panda_action_stand",	R.drawable.panda_stand,	  R.string.str_stand},
+//			{"panda_action_stand",	R.drawable.panda_stand,	  R.string.str_stand},
 	};
 	private final Object nanjingData[][] = {
 			//perference_key        //icon                    //name

@@ -44,15 +44,15 @@
             android:summary="@string/str_anim_to_show_time"
             />
 	    <!-- 动画大小 -->
-        <ListPreference
-            android:key="person_size"
-            android:title="@string/str_person_size"
-            android:summary="@string/str_chose_person_size"
-            android:entries="@array/person_size"
-            android:entryValues="@array/person_size_value"
-            android:defaultValue="0.4"
-            android:negativeButtonText="@string/str_cancel"
-            />
+        <!--<ListPreference-->
+            <!--android:key="person_size"-->
+            <!--android:title="@string/str_person_size"-->
+            <!--android:summary="@string/str_chose_person_size"-->
+            <!--android:entries="@array/person_size"-->
+            <!--android:entryValues="@array/person_size_value"-->
+            <!--android:defaultValue="0.4"-->
+            <!--android:negativeButtonText="@string/str_cancel"-->
+            <!--/>-->
         <!--行走速度-->
         <!--<ListPreference-->
             <!--android:key="frame_time"-->
@@ -96,11 +96,11 @@
 	        android:summary="点查看更多手机必备精品应用"
 	        />
 -->
-		<Preference 
-		    android:key="app_share"
-		    android:title="@string/str_share"
-			android:summary="@string/str_share_summary"
-		    />
+		<!--<Preference -->
+		    <!--android:key="app_share"-->
+		    <!--android:title="@string/str_share"-->
+			<!--android:summary="@string/str_share_summary"-->
+		    <!--/>-->
 		<Preference
 			android:key="app_help"
 			android:title="@string/str_help_and_version"

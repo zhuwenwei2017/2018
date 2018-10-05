@@ -103,7 +103,7 @@ public class AppService extends Service implements OnSharedPreferenceChangeListe
         handler.post(changRunnable);
         if(!sp.getBoolean("all_app_visible", false))
             handler.post(homeRunnable);
-        frameTime = Integer.parseInt(sp.getString("frame_time", "150"));
+        frameTime = Integer.parseInt(sp.getString("frame_time", "200"));
         randomTime = Integer.parseInt(sp.getString("random_time", "5000"));
         //屏幕为on
         sp.edit().putBoolean("screen_on", true).commit();
@@ -247,7 +247,7 @@ public class AppService extends Service implements OnSharedPreferenceChangeListe
             addPerson();
         }
         else if("frame_time".equals(key)){
-            frameTime = Integer.parseInt(sp.getString("frame_time", "150"));
+            frameTime = Integer.parseInt(sp.getString("frame_time", "200"));
         }
         else if("random_time".equals(key)){
             randomTime = Integer.parseInt(sp.getString("random_time", "5000"));

@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- 描述 -->
-    <string name="app_name">桌面宠物</string>
+    <string name="app_name">林超泽桌宠</string>
     <string name="luffy_full_name">蒙奇·D·路飛\n(MONKEY·D·LUFFY)</string>
     <string name="zoro_full_name">羅洛亞·卓洛\n(RORONOA·ZORO)</string>
     <string name="law_full_name">特拉法爾加·羅\n(TRAFALGAR·LAW)</string>
     <string name="chopper_full_name">托尼托尼·喬巴\n(TONY ~·CHOPPER)</string>
-    <string name="panda_full_name">熊猫\n(PANDA)</string>
-    <string name="nanjing_full_name">南京\n(NANJING)</string>
+    <string name="panda_full_name">熊猫\n(作者：Yihre)</string>
+    <string name="nanjing_full_name">0722杭州站\n(作者：旭)</string>
     <string name="luffy">路飛</string>
     <string name="zoro">卓洛</string>
     <string name="law">羅</string>
     <string name="chopper">喬巴</string>
     <string name="panda">熊猫</string>
-    <string name="nanjing">南京</string>
-    <string name="welcome_hlep">【介绍】\n
-								《桌面宠物：OP版》V5重大升级，添加了网络更新下载资源功能。
-								版本中默认本地人物：路飞、卓洛、罗和乔巴。
-								本人属于上班族，空余时间开发，感谢大家的支持，谢谢！\n
-								如果觉得不错就分享给好友吧！\n
-								期待下次更新，请关注在线人物的更新。\n
-								这个可爱的小人物可以在任何界面上显示，不再局限于壁纸上，也不需要为壁纸更换的局限个烦恼，
-								还可以为你播报日期时间。海迷们还等什么，快来领取你的桌面宠物吧！\n\n
-								【版本说明】\n
-								Ver5.1.2:\n
-								1、修复了无法下载问题\n
-								【帮助】\n
-								在线资源下载，请不要删除本地中的资源文件，若不小心删除了，请在人物选择中重新下载。
-								如有疑问，请到官网反馈。
+    <string name="nanjing">0722杭州站</string>
+    <string name="welcome_hlep">【版本号】v1.0\n
+需要在手机设置里的悬浮窗口设置中，开启对本应用的授权，以保证桌宠能正常显示。\n
+ 【关于投稿】\n
+欢迎各位VC随时投稿💛 \n
+有意投稿者请联系林超泽百度贴吧官博或者邮箱1076620064@qq.com\n
+将会根据投稿内容进行不定期更新，期待你的加入💛\n
 	</string>
     <!-- 信息保留静态字段 -->
     <string name="sp_name">one_piece_settings</string>
